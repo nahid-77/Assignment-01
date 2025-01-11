@@ -93,9 +93,93 @@
 }
 
 /* Future vision section related styles */
-.future-vision{
-    margin: 20px 120px;
+.future-vision {
+  margin: 30px 120px;
 }
+
 .visions {
   display: flex;
+  gap: 24px;
+  margin-top: 25px;
 }
+
+.future-vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.vision-1 {
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  padding:22px;
+}
+
+.vision-2 {
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  padding:22px;
+}
+
+.vision-3 {
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+  padding:22px;
+}
+
+.vision-title {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 22px;
+}
+
+.vision-description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 22px;
+}
+
+.card-icons {
+  margin: 12px 32px;
+}
+
+.learn-more-btn{
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  margin: 10px 22px;
+  padding: 11px 20px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600; 
+  cursor:pointer;
+}
+
+.learn-more-1{
+  background: rgb(84, 144, 245); 
+}
+
+.learn-more-2{ 
+background: rgb(9, 161, 92); 
+}
+
+.learn-more-3{
+  background: rgb(255, 194, 57);
+}
+
+.learn-more-1:hover{
+  background: rgb(121, 137, 166); 
+}
+
+.learn-more-2:hover{ 
+background: rgb(83, 140, 114); 
+}
+
+.learn-more-3:hover{
+  background: rgb(194, 168, 108);
+}
+
+
