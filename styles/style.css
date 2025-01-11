@@ -5,12 +5,18 @@
   font-style: normal;
 }
 
+/* shared styles */
+.common-titles {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
 /* nav-bar related styles */
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin:24px 160px;
+  margin: 31px 102px;
   padding: 10px 20px;
 }
 .nav-title {
@@ -27,8 +33,69 @@
   background-color: white;
   border: 1px solid rgb(0, 106, 80);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .sign-in-btn:hover {
   background-color: #dddcdc;
+}
+
+/* banner or hero section related styles */
+
+.banner {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  border-radius: 24px;
+  margin: 0px 120px 80px 120px;
+  background: rgb(198, 228, 214);
+  gap: 64px;
+}
+
+.banner-image {
+  width: 470px;
+  height: 400px;
+}
+
+.banner-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  text-align: left;
+  padding-left: 0px;
+}
+
+.banner-description {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  margin-top: 16px;
+}
+
+.btn-primary {
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  padding: 12px 24px;
+  margin-top: 24px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: rgb(6, 235, 178);
+  color: #8d8888;
+}
+
+/* Future vision section related styles */
+.future-vision{
+    margin: 20px 120px;
+}
+.visions {
+  display: flex;
 }
