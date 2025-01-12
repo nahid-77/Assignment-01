@@ -5,6 +5,13 @@
   font-style: normal;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
 /* shared styles */
 .common-titles {
   font-size: 40px;
@@ -93,93 +100,199 @@
 }
 
 /* Future vision section related styles */
-.future-vision {
-  margin: 30px 120px;
+.vision-section {
+  text-align: left;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0px 85px;
 }
 
-.visions {
-  display: flex;
-  gap: 24px;
-  margin-top: 25px;
+.vision-section h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(14, 14, 14);
+  margin-bottom: 20px;
 }
 
-.future-vision-description {
+.vision-section p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
-  margin: 12px 0px;
+  text-align: left;
+  margin-bottom: 40px;
 }
 
-.vision-1 {
+.vision-cards {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.vision-card {
+  background-color: #fff;
   border-radius: 16px;
-  background: rgba(84, 144, 245, 0.2);
-  padding:22px;
+  padding: 20px;
+  max-width: 350px;
+  text-align: left;
+  flex: 1;
 }
 
-.vision-2 {
-  border-radius: 16px;
-  background: rgb(198, 228, 214);
-  padding:22px;
+.vision-card img {
+  width: 50px;
+  margin-bottom: 15px;
 }
 
-.vision-3 {
-  border-radius: 16px;
-  background: rgb(247, 235, 207);
-  padding:22px;
-}
-
-.vision-title {
+.vision-card h2 {
   color: rgba(14, 14, 14, 0.8);
   font-size: 20px;
   font-weight: 700;
-  padding: 10px 22px;
+  margin-bottom: 15px;
 }
 
-.vision-description {
+.vision-card p {
   color: rgba(14, 14, 14, 0.7);
   font-size: 16px;
   font-weight: 400;
-  padding: 10px 22px;
+  margin-bottom: 20px;
 }
 
-.card-icons {
-  margin: 12px 32px;
-}
-
-.learn-more-btn{
-  border-radius: 8px;
-  background: rgb(84, 144, 245);
-  margin: 10px 22px;
-  padding: 11px 20px;
-  border: none;
+.vision-card button {
   color: rgb(255, 255, 255);
   font-size: 16px;
-  font-weight: 600; 
-  cursor:pointer;
+  font-weight: 600;
+  border: none;
+  padding: 11px 20px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.learn-more-1{
-  background: rgb(84, 144, 245); 
+.vision-card button:hover {
+  background-color: #0056b3;
 }
 
-.learn-more-2{ 
-background: rgb(9, 161, 92); 
+.vision-card.blue {
+  background: rgba(84, 144, 245, 0.2);
 }
 
-.learn-more-3{
+.vision-card.green {
+  background: rgb(198, 228, 214);
+}
+
+.vision-card.yellow {
+  background: rgb(247, 235, 207);
+}
+
+.vision-card.blue button {
+  background: rgb(84, 144, 245);
+}
+
+.vision-card.green button {
+  background: rgb(9, 161, 92);
+}
+
+.vision-card.yellow button {
   background: rgb(255, 194, 57);
 }
-
-.learn-more-1:hover{
-  background: rgb(121, 137, 166); 
+.vision-card.blue button:hover {
+  background: rgb(122, 154, 208);
 }
 
-.learn-more-2:hover{ 
-background: rgb(83, 140, 114); 
+.vision-card.green button:hover {
+  background: rgb(70, 190, 136);
 }
 
-.learn-more-3:hover{
-  background: rgb(194, 168, 108);
+.vision-card.yellow button:hover {
+  background: rgb(202, 170, 93);
 }
 
+/* Recent-news related styles */
 
+.news-section {
+  max-width: 1200px;
+  margin: 0px 85px;
+  padding: 40px 20px;
+  text-align: left;
+}
+
+.news-section h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.news-section p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.news-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.news-image img {
+  width: 400px;
+  border-radius: 24px;
+}
+
+.news-content {
+  flex: 1;
+  text-align: left;
+}
+
+.news-content h2 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.news-meta img {
+  width: 130px;
+}
+
+.news-meta p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.news-content p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.news-content button {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none;
+  padding: 13px 26px;
+  cursor: pointer;
+}
+
+.news-content button:hover {
+  background-color: #42a85a;
+}
