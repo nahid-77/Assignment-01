@@ -206,6 +206,52 @@ body {
   background: rgb(202, 170, 93);
 }
 
+/* Quote-related styles */
+
+.quote-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0px 100px;
+  position: relative;
+}
+
+.quote-icon {
+  position: absolute;
+  left: 24px;
+  top: 7px;
+  width: 60px;
+  height: 60px;
+}
+
+.quote-icon img {
+  opacity: 0.7;
+}
+
+.quote-text {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+}
+
+.author {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.designation {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
 /* Recent-news related styles */
 
 .news-section {
@@ -382,6 +428,74 @@ body {
 
 .donate-btn:hover {
   background-color: #42a85a;
+}
+
+/* Newsletter section related styles */
+
+.newsletter-section {
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  text-align: center;
+  margin: 30px 100px 30px 100px;
+  padding: 80px 100px;
+}
+
+.newsletter-section h2 {
+  color: rgb(14, 14, 14);
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.newsletter-section .description {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 16px 0px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  margin-bottom: 20px;
+}
+
+.email-input {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  width: 70%;
+  padding: 13px 30px;
+  border: none;
+}
+
+.subscribe-button {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 0px 8px 8px 0px;
+  background: rgb(0, 106, 80);
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #42a85a;
+}
+
+.newsletter-section .note {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
 }
 
 /* footer related styles */
