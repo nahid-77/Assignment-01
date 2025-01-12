@@ -383,3 +383,33 @@ body {
 .donate-btn:hover {
   background-color: #42a85a;
 }
+
+/* footer related styles */
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  margin-top: 30px;
+}
+
+.footer-title {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.footer-divider {
+  width: 70%;
+  margin: 32px auto;
+  border-top: 1px solid rgba(14, 14, 14, 0.1);
+}
+
+.social-icons {
+  margin: 10px auto;
+}
+
+.social-link {
+  margin: 0 20px;
+}
